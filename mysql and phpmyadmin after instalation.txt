@@ -1,0 +1,8 @@
+Login to Mysql 
+1. sudo mysql -p -u root
+
+Create User.
+2. CREATE USER 'admin'@'%' IDENTIFIED BY 'admin4321';
+
+Grant Permission
+3.GRANT ALL PRIVILEGES ON *.* TO 'admin'@'%' WITH GRANT OPTION;
