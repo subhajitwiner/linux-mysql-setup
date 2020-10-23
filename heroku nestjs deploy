@@ -1,0 +1,1 @@
+nest heroku setup add command to pacakge.json  "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build"
