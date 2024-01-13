@@ -1,0 +1,4 @@
+sudo apt-get install openssh-server
+sudo systemctl status ssh
+sudo ufw allow ssh
+ip a // for get ip address
