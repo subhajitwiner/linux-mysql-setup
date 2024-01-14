@@ -1,3 +1,15 @@
+install apache 
+sudo apt-get install apache2 -y
+
+install PHP
+sudo apt-get install php -y
+
+install MySQL and MariaDB
+sudo apt-get install mariadb-server php-mysql -y
+
+restart apache
+sudo service apache2 restart
+
 Login to Mysql 
 1. sudo mysql -p -u root
 
@@ -7,9 +19,5 @@ Create User.
 Grant Permission
 3.GRANT ALL PRIVILEGES ON *.* TO 'admin'@'%' WITH GRANT OPTION;
 
-
-
-
-
-
-(this.SearchArray.at(0) as FormGroup).get('counties').patchValue(singleOrganization.sites);
+install PHPMyAdmin
+sudo apt-get install phpmyadmin
