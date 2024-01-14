@@ -8,3 +8,5 @@ autoGeneratePassword() {
 
     return pass;
   }
+
+(this.SearchArray.at(0) as FormGroup).get('counties').patchValue(singleOrganization.sites);
