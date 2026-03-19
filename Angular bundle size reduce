@@ -1,0 +1,6 @@
+npm run build -- --configuration production --status-json
+
+get stats.json file and check on 
+https://esbuild.github.io/analyze/
+
+
